@@ -1,6 +1,10 @@
+body{
+    margin: 0%;
+}
+
 #container{
-    margin-left: 450px;
-    margin-top: 100px;
+    margin-left: 500px;
+    margin-top: 150px;
     max-width: 300px;
 }
 
@@ -10,74 +14,106 @@
 }
 
 #tile11{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80px;
     height: 80px;
     border-bottom: 0px;
     border-right: 0px;
+    background-color: white;
 }
 
 #tile12{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80px;
     height: 80px;
     border-bottom: 0px;
     border-right: 0px;
+    background-color: white;
 }
 
 #tile13{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80px;
     height: 80px;
     border-bottom: 0px;
-
+    background-color: white;
 }
 
 #tile21{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80px;
     height: 80px;
     border-bottom: 0px;
     border-right: 0px;
+    background-color: white;
 }
 
 #tile22{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80px;
     height: 80px;
     border-bottom: 0px;
     border-right: 0px;
+    background-color: white;
 }
 
 #tile23{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80px;
     height: 80px;
     border-bottom: 0px;
+    background-color: white;
 }
 
 
 #tile31{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80px;
     height: 80px;
     border-right: 0px;
+    background-color: white;
 }
 
 #tile32{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 80px;
     height: 80px;
     border-right: 0px;
+    background-color: white;
 }
 
 #tile33{
-    border: 1px solid black;
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+
+.getImg{
     width: 80px;
     height: 80px;
 }
 
-.getImg{
-    width: 70px;
-    height: 70px;
+.cross{
+    width: 280px;
+    border: 2px solid black;
+    background-color: black;
+    height: 0%;
+    position: absolute;
+}
+
+.bodyImg{
+
+    position: fixed;
+    z-index: -1;
+    height: fit-content;
+    margin-top: -500px;
+}
+
+#text{
+    transition: 3200ms;
+    font-size: 120px;
+    margin-top: -390px;
+    margin-left: 340px;
+    position: relative;
 }
