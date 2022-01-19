@@ -15,37 +15,11 @@ let gridBox = [
     [null, null, null]
 ];
 
-for (let x of tileIds) {
-    myFunc(x);
+for (let tileId of tileIds) {
+    bindEvent(tileId);
 }
 
 let nextMove = "X";
-
-function myFunc(item) {
-    let val = document.getElementById(item);
-    
-    val.addEventListener("click", handleOnClick);
-    function handleOnClick(e) {
-        let getImg = document.createElement("img");
-        getImg.classList.add("getImg");
-        getImg.src = nextMove === "X" ? "/img/images.png" : "/img/images (1).png";
-        e.target.append(getImg);    
-        
-
-        // next move
-        nextMove = nextMove === "X" ? "R" : "X";
-    }
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
