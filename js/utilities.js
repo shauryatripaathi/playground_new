@@ -1,7 +1,7 @@
-let bodyImg = document.createElement("img");
-bodyImg.classList.add("bodyImg");
-bodyImg.src = "img/wallpaper1.jpg";
-document.body.append(bodyImg);
+let backgroundImg = document.createElement("img");
+backgroundImg.classList.add("backgroundImg");
+backgroundImg.src = "img/wallpaper1.jpg";
+document.body.append(backgroundImg);
 
 let grid = document.getElementById("grid");
 let cross = document.createElement("div");
