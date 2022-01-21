@@ -28,7 +28,7 @@ function bindEvent(tileId) {
         if (gridBox[rowIndex][colIndex] == null) {
             let getImg = document.createElement("img");
             getImg.classList.add("getImg");
-            getImg.src = nextMove === "X" ? "/img/X.png" : "/img/O.png";
+            getImg.src = nextMove === "X" ? "./img/X.png" : "./img/O.png";
             e.target.append(getImg);
             gridBox[rowIndex][colIndex] = nextMove;
 
