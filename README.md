@@ -1,1 +1,1 @@
-[tictactoe](https://shauryatripaathi.github.io/playground_new/index.html)
+[tictactoe](https://shauryatripaathi.github.io/tictactoe_new/)
