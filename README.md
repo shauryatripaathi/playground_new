@@ -1,4 +1,4 @@
-Play the classic Tic-Tac-Toe game.
+**Play the classic Tic-Tac-Toe game.**
 
 Created using Javascript, HTML, CSS.
 
